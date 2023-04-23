@@ -1,0 +1,64 @@
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+p,
+form,
+fieldset,
+button,
+input {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+/* i,em,address */
+i,
+em,
+address {
+  font-style: normal;
+}
+
+
+label{
+  cursor: pointer;
+}
+
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 13px;
+  color: #666;
+}
+
+.blind {
+  position: absolute;
+  top: -9999px;
+}
+.clearFix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+hr {
+  display: none;
+}
